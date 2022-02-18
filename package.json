@@ -1,0 +1,42 @@
+{
+  "name": "flux-cup",
+  "version": "0.0.0",
+  "description": "A overlay for flux-cup",
+  "homepage": "https://github.com/themicrocheeze/flux-cup",
+  "author": {
+    "name": "Themicrocheeze",
+    "email": "themicrocheez@gmail.com",
+    "url": "themicrocheeze.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "flux-cup",
+        "title": "Flux Cup",
+        "width": 4,
+        "file": "flux-cup.html",
+        "workspace": "Flux Cup",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "private": true
+}
