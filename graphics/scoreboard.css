@@ -1,0 +1,55 @@
+body{
+    width: 1920px;
+    height: 1080px;
+    margin: 0px;
+}
+
+
+.nameTag1{
+    position: fixed;
+    width: 596px;
+    height: 52px;
+    top: 8px;
+    left: 35px;
+    background-color: white;
+    text-align: right;
+    color: black;
+    font-size: 56px;
+    transform: skewX(-15deg);
+}
+.nameTag2{
+    position: fixed;
+    width: 596px;
+    height: 52px;
+    background-color: white;
+    top: 8px;
+    left: 1290px;
+    text-align: left;
+    color:black;
+    font-size: 56px;
+    transform: skew(15deg);
+}
+
+.scoreBox1{
+    position: fixed;
+    top: 8px;
+    left: 630px;
+    height: 52px;
+    width: 64px;
+    background-color: red;
+    transform: skewX(-15deg);
+    font-size: 52px;
+    text-align: center;
+}
+
+.scoreBox2{
+    position: fixed;
+    top: 8px;
+    left: 1224px;
+    height: 52px;
+    width: 64px;
+    background-color: blue;
+    transform: skewX(15deg);
+    font-size: 52px;
+    text-align: center;
+}
