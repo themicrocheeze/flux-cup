@@ -7,18 +7,47 @@
 		.monospace {
 			font-family: monospace;
 		}
+		footer{
+			font-size: 12px;
+		}
 	</style>
 </head>
 
 <body>
+	<h2>Welcome to the Flux Cup Overlay Dashboard</h2>
+	<h3>Set the team names</h3>
+	Team 1's Name: <input type="text" id="team1nameinput"><br />
+	<br />
+	Team 2's Name: <input type="text" id="team2nameinput"><br />
+	<br />
+	<button id="nameButton" onclick="setTeamNames()">SET TEAM NAMES</button>
+	<br />
+	<hr />
 
-	Team 1's Name: <input type="text" id="team1nameinput">
-	<br/>
-	Team 2's Name: <input type="text" id="team2nameinput">
-	<br/>
-	<button id="nameButton"  onclick="setTeamNames()">SET TEAM NAMES</button>
+	<h3>Set the team styles(all styles should be in hex value i. e. #FFFFFF</h3>
 
-		<script src="teamNamesdash.js"></script>
+	Team 1's Background Color: <input type="text" id="team1styleinput"> <br /><br />
+	Team 1's Text Color: <input type="text" id="team1styleinputTEXT"> <br /><br />
+	Team 2's Background Color: <input type="text" id="team2styleinput"><br /><br />
+	Team 2's Text Color: <input type="text" id="team2styleinputTEXT"> <br /><br />
+	
+
+	<button id="styleButton" onclick="setTeamStyles()">Set Team Styles</button>
+	<footer>* SETTING TEXT COLOR DOES NOT WORK YET *</footer>
+	<hr />
+	<h3>Score Controls</h3>
+	<h4>Team 1</h4>
+	<button id="team1scoreADD" onclick="scoreTeam1()">+1</button>
+	<button id="team1scoreMINUS" onclick="minusScoreTeam1()">-1</button>
+	<h4>Team 2</h4>
+	<button id="team2scoreADD" onclick="scoreTeam2()">+1</button>
+	<button id="team2scoreMINUS" onclick="minusScoreTeam2()">-1</button>
+	<h4>Reset Score</h4>
+	<button id="resetthescore" onclick="resetScoreboard()">RESET</button>
+
+
+	<script src="teamNamesdash.js"></script>
+	<script src="scoreDash.js"></script>
 </body>
 
 </html>
