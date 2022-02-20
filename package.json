@@ -23,9 +23,17 @@
     "dashboardPanels": [
       {
         "name": "flux-cup",
-        "title": "Flux Cup",
+        "title": "Team Info",
         "width": 4,
         "file": "flux-cup.html",
+        "workspace": "Flux Cup",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "score-controls",
+        "title": "Score Controls",
+        "width": 4,
+        "file": "score-controls.html",
         "workspace": "Flux Cup",
         "headerColor": "#525F78"
       }
