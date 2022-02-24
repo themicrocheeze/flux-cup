@@ -6,6 +6,7 @@ body{
 
 
 .nameTag1{
+    font-family: Industry;
     position: fixed;
     width: 589px;
     height: 52px;
@@ -14,11 +15,12 @@ body{
     background-color: white;
     text-align: center;
     color: black;
-    font-size: 52px;
+    font-size: 40px;
     transform: skewX(-15deg);
     box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
 }
 .nameTag2{
+    font-family: Industry;
     position: fixed;
     width: 589px;
     height: 52px;
@@ -27,12 +29,13 @@ body{
     left: 1290px;
     text-align: center;
     color:black;
-    font-size: 52px;
+    font-size: 40px;
     transform: skew(15deg);
     box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
 }
 
 .scoreBox1{
+    font-family: Industry;
     position: fixed;
     top: 8px;
     left: 644px;
@@ -40,12 +43,13 @@ body{
     width: 64px;
     background-color: red;
     transform: skewX(-15deg);
-    font-size: 52px;
+    font-size: 40px;
     text-align: center;
     box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
 }
 
 .scoreBox2{
+    font-family: Industry;
     position: fixed;
     top: 8px;
     left: 1220px;
@@ -53,7 +57,8 @@ body{
     width: 64px;
     background-color: blue;
     transform: skewX(15deg);
-    font-size: 52px;
+    font-size: 40px;
     text-align: center;
     box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
+    z-index: -1;
 }
